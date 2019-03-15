@@ -1,0 +1,7 @@
+D:\2018-19Bahar\OMD102 Bilgisayar Programlama\uygulama\consoleApp\consoleApp\bin\Debug\consoleApp.exe.config
+D:\2018-19Bahar\OMD102 Bilgisayar Programlama\uygulama\consoleApp\consoleApp\bin\Debug\consoleApp.exe
+D:\2018-19Bahar\OMD102 Bilgisayar Programlama\uygulama\consoleApp\consoleApp\bin\Debug\consoleApp.pdb
+D:\2018-19Bahar\OMD102 Bilgisayar Programlama\uygulama\consoleApp\consoleApp\obj\Debug\consoleApp.csprojAssemblyReference.cache
+D:\2018-19Bahar\OMD102 Bilgisayar Programlama\uygulama\consoleApp\consoleApp\obj\Debug\consoleApp.csproj.CoreCompileInputs.cache
+D:\2018-19Bahar\OMD102 Bilgisayar Programlama\uygulama\consoleApp\consoleApp\obj\Debug\consoleApp.exe
+D:\2018-19Bahar\OMD102 Bilgisayar Programlama\uygulama\consoleApp\consoleApp\obj\Debug\consoleApp.pdb
