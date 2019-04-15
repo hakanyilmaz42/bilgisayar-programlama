@@ -182,8 +182,85 @@ namespace consoleApp
             }
             */
 
+            /*//15.Girilen sayı kadar sayının ortalamasını bulan program
+            Console.WriteLine("Kaç tane sayı gireceksiniz?");
+            int n = Convert.ToInt32(Console.ReadLine());
+            double toplam = 0;
 
+            for (int i=1;i<=n;i++)
+            {
+                Console.WriteLine("{0}. sayıyı giriniz",i);
+                int sayi= Convert.ToInt32(Console.ReadLine());
+                toplam = toplam + sayi;
+            }
 
+            double ortalama = toplam / n;
+            Console.WriteLine("{0} tane sayının ortalaması: {1}", n, ortalama);*/
+
+            /*// 16. 3 veya 5'in katları
+            double toplam = 0;
+            for (int i=1;i<1000;i++)
+            {
+                if (i%3==0 || i%5==0)
+                {
+                    toplam = toplam + i;
+                }
+            }
+
+            Console.WriteLine(toplam);*/
+
+            /*//17. 1’den 100’e kadar olan sayılardan tek olanların karesini çift olanların küpünü yazdıran program
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine("{0} nin küpü:{1}",i,i * i * i);
+                }
+                else
+                {
+                    Console.WriteLine("{0} nin karesi:{1}",i,i * i);
+                }
+            }
+            */
+            /*//18. 1’den 9’a kadar olan sayılarla çarpım tablosu oluşturunuz
+
+            for (int i=1;i<=9;i++)
+            {
+                for (int j=1;j<=9;j++)
+                {
+                    Console.WriteLine("{0}X{1}={2}", i, j, i * j);
+                }
+                Console.WriteLine("########################");
+            }*/
+
+            //##########################################################
+            //              Array
+
+            string[] isimler = new string[5];
+            for (int i=0;i<isimler.Length;i++)
+            {
+                Console.WriteLine("{0}. ismi giriniz", i+1);
+                isimler[i] = Console.ReadLine();
+            }
+
+            foreach(string isim in isimler)
+            {
+                Console.WriteLine(isim);
+            }
+
+            Array.Reverse(isimler);
+
+            foreach (string isim in isimler)
+            {
+                Console.WriteLine(isim);
+            }
+
+            Array.Sort(isimler);
+
+            foreach (string isim in isimler)
+            {
+                Console.WriteLine(isim);
+            }
         }
     }
 }
