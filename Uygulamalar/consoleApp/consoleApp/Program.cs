@@ -235,8 +235,9 @@ namespace consoleApp
 
             //##########################################################
             //              Array
-
+            /*
             string[] isimler = new string[5];
+
             for (int i=0;i<isimler.Length;i++)
             {
                 Console.WriteLine("{0}. ismi giriniz", i+1);
@@ -260,6 +261,149 @@ namespace consoleApp
             foreach (string isim in isimler)
             {
                 Console.WriteLine(isim);
+            }
+            */
+            /*
+            //10 elemanlı bir tam sayı dizisi oluşturun ve kullanıcıdan 10 sayı alın. Bu sayılardan tek sayı olanları ekrana yazdırın
+            int[] sayilar = new int[10];
+
+            for (int i = 0; i < sayilar.Length; i++)
+            {
+                Console.WriteLine("{0}. sayıyı giriniz", i + 1);
+                sayilar[i] = int.Parse(Console.ReadLine());
+            }
+
+            foreach(int sayi in sayilar)
+            {
+                if (sayi%2==1)
+                {
+                    Console.WriteLine(sayi);
+                }
+            }
+            */
+            /*
+            //Kenarı girilen karenin alanını ve küpünü hesaplayın.
+            Console.WriteLine("Kenar girinizi");
+            int kenar = int.Parse(Console.ReadLine());
+
+            double kare = Math.Pow(kenar, 2);
+            double kup = Math.Pow(kenar, 3);
+            Console.WriteLine("karesi:{0}, küpü:{1}", kare, kup);
+            */
+
+            /*//Girilen yarıçap değerine göre çevre, alan ve hacim hesaplayın
+            Console.WriteLine("Yarıçap girinizi");
+            int yariCap = int.Parse(Console.ReadLine());
+
+            double cevre =Math.Round((Math.PI * 2 * yariCap),2);
+            double alan = Math.PI * Math.Pow(yariCap, 2);
+            double hacim = 4 / 3 * Math.PI * Math.Pow(yariCap, 3);
+            Console.WriteLine("çevre:{0}, alan:{1}, hacim:{2}", cevre, Math.Round(alan,2), Math.Round(hacim,2));
+            */
+            /*
+            //Klavyeden alınan n elemanlı bir A dizisinin en büyük ve en küçük elemanını bulan program.
+            Console.WriteLine("n yi girinizi");
+            int n = int.Parse(Console.ReadLine());
+
+            int[] a = new int[n];
+            for (int i =0;i<n;i++)
+            {
+                Console.WriteLine("{0}. sayıyı giriniz", i + 1);
+                a[i]= int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("max:{0}, min:{1}", a.Max(), a.Min());*/
+            /*
+            //N kişilik bir sınıfın herhangi bir dersinden yılsonu notları girilmektedir. Buna göre sınıf ortalamasının altında kalanlara ‘Kaldı’, diğerlerine de ‘geçti’ yazan program
+            Console.WriteLine("öğrenci sayısını girinizi");
+            int ogrenciSayi = int.Parse(Console.ReadLine());
+
+            int[] a = new int[ogrenciSayi];
+            double toplam = 0;
+            for (int i = 0; i < ogrenciSayi; i++)
+            {
+                Console.WriteLine("{0}. notu giriniz", i + 1);
+                a[i] = int.Parse(Console.ReadLine());
+                toplam += a[i];
+            }
+
+            double ortalama = toplam / ogrenciSayi;
+            foreach(int not in a)
+            {
+                if (not < ortalama)
+                {
+                    Console.WriteLine("{0} kaldı {1}", not, ortalama);
+                }
+                else {
+                    Console.WriteLine("{0} geçti {1}", not, ortalama);
+                }
+            }
+
+            */
+            /*//Klavyeden girilen -9 ile   9 arasındaki tek basamaklı bir sayıyı, kelime olarak yazdıran program.
+            string[] sayilar = { "sıfır", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz", "dokuz" };
+            Console.WriteLine("-9 +9 arası sayı giriniz");
+            int sayi = int.Parse(Console.ReadLine());
+            string onek = "";
+            if (sayi < 0) {
+                onek = "eksi ";
+            }
+
+            Console.WriteLine(onek + sayilar[Math.Abs(sayi)]);*/
+
+            /*//8 haneli rasgele şifre oluşturun (33,126).
+
+            Random rasgele = new Random();
+            string sifre = "";
+            for (int i=1;i<=8;i++)
+            {
+                int karakter = rasgele.Next(33, 127);
+                sifre += Convert.ToChar(karakter);
+            }
+
+            Console.WriteLine(sifre);
+            */
+            /*
+            //Sayısal loto programı yazın (sayıları sıralı yazdırın).
+            Random rasgele = new Random();
+            int[] sayilar = new int[6];
+            sayilar[0] = rasgele.Next(1, 50);
+            int sayac = 1;
+
+            while(sayac<6)
+            {
+                int deger = rasgele.Next(1, 50);
+                if (Array.IndexOf(sayilar,deger)<0)
+                {
+                    sayilar[sayac] = deger;
+                    sayac++;
+                }
+            }
+
+            Array.Sort(sayilar);
+            foreach(int sayi in sayilar)
+            {
+                Console.WriteLine(sayi);
+            }
+            */
+
+            //Girilen sayının asal sayı olup olmadığını bulan programı yazın.
+            Console.WriteLine("sayı giriniz");
+            int sayi = int.Parse(Console.ReadLine());
+            bool durum = true;
+            for (int i=2;i<sayi;i++)
+            {
+                if (sayi%i==0)
+                {
+                    durum = false;
+                }
+            }
+
+            if (durum==true)
+            {
+                Console.WriteLine("{0} sayısı asaldır", sayi);
+            }else
+            {
+                Console.WriteLine("{0} sayısı asal değildir", sayi);
             }
         }
     }

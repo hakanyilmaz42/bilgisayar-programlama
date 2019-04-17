@@ -5,3 +5,10 @@ D:\2018-19Bahar\OMD102 Bilgisayar Programlama\uygulama\consoleApp\consoleApp\obj
 D:\2018-19Bahar\OMD102 Bilgisayar Programlama\uygulama\consoleApp\consoleApp\obj\Debug\consoleApp.csproj.CoreCompileInputs.cache
 D:\2018-19Bahar\OMD102 Bilgisayar Programlama\uygulama\consoleApp\consoleApp\obj\Debug\consoleApp.exe
 D:\2018-19Bahar\OMD102 Bilgisayar Programlama\uygulama\consoleApp\consoleApp\obj\Debug\consoleApp.pdb
+D:\Git\OMD102\Uygulamalar\consoleApp\consoleApp\bin\Debug\consoleApp.exe.config
+D:\Git\OMD102\Uygulamalar\consoleApp\consoleApp\bin\Debug\consoleApp.exe
+D:\Git\OMD102\Uygulamalar\consoleApp\consoleApp\bin\Debug\consoleApp.pdb
+D:\Git\OMD102\Uygulamalar\consoleApp\consoleApp\obj\Debug\consoleApp.csprojAssemblyReference.cache
+D:\Git\OMD102\Uygulamalar\consoleApp\consoleApp\obj\Debug\consoleApp.csproj.CoreCompileInputs.cache
+D:\Git\OMD102\Uygulamalar\consoleApp\consoleApp\obj\Debug\consoleApp.exe
+D:\Git\OMD102\Uygulamalar\consoleApp\consoleApp\obj\Debug\consoleApp.pdb
